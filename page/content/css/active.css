@@ -1,0 +1,27 @@
+.mg-left {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mg-left-no {
+  margin-left: -400px;
+  margin-right: -400px;
+}
+
+@keyframes glowing-animation {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.glowing-text {
+  font-size: 25px;
+  color: #56c0ca;
+  animation: glowing-animation 2s ease-in-out infinite;
+}
