@@ -64,7 +64,7 @@ function random(N,M){
 	return Math.floor(Math.random()*(M-N+1))+N
 }
 // new Fireworks(264 ,301).ceratefirework();
-let time=2000
+let time=1000
 function auto_love(){
     const auto_x=random(0,540)
     const auto_y=random(0,800)
@@ -76,6 +76,6 @@ function auto_love(){
     }
 }
 
-const auto_time= setInterval(auto_love,600)
+const auto_time= setInterval(auto_love,1000)
 
 
